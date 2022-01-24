@@ -1,0 +1,8 @@
+select cast(COUNT(id) as varchar(50)) as 'The number of meteorite landings that occurred from 1990 to present day is:' from meteor
+
+select id as Name,'was the heaviest meteorite to land on earth in the last 10 years, with a mass of' + MAX(fall) from meteor
+
+
+I used SQL to do it, although ran out of time at the end as I'd need to format the table better. 
+Import the file to SQL as a CSV. You would need to match my headings for each column called. It doesn't import 100% correctly as mentioned would have to spend more time on the data. 
+
